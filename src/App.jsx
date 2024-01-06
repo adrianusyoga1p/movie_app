@@ -9,7 +9,7 @@ import Wrapper from './pages/Wrapper'
 const App = () => {
   // const { data, loading } = useFetch('https://movies-api14.p.rapidapi.com/search?query=avengers')
   // const { data, loading } = useFetch('shows');
-  const location = useLocation()
+  const location = useLocation();
   return (
     <>
       <Routes location={location} key={location.pathname}>

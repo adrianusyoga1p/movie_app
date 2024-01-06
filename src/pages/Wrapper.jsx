@@ -5,7 +5,7 @@ const Wrapper = () => {
   return (
     <>
       <Navbar />
-      <div className="py-24">
+      <div className="py-10 h-full">
         <div className="container mx-auto">
           <Outlet />
         </div>
